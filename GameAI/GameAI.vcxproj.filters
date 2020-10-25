@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\Behaviours">
+      <UniqueIdentifier>{b667199a-2d44-4964-a257-76f193126e73}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Behaviours">
+      <UniqueIdentifier>{ac8ea0b5-569c-4ef9-8f82-cd7367d743db}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\PathFinding">
+      <UniqueIdentifier>{d303321e-9c92-4427-ac3d-31af85dbb4b8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\GameStates">
+      <UniqueIdentifier>{5ae305ab-dafc-474f-882f-67f416f96095}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\GameStates">
+      <UniqueIdentifier>{9f1fda61-3312-4a1e-87c1-e8861c74f305}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\GameObjects">
+      <UniqueIdentifier>{abe9df7d-6c43-417c-9e82-c08205dcfd10}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\GameObjects">
+      <UniqueIdentifier>{79d5f0df-d0b9-4fc1-bb07-96c5949ae590}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Application.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Behaviour.cpp">
+      <Filter>Source Files\Behaviours</Filter>
+    </ClCompile>
+    <ClCompile Include="KeyBoardBehaviour.cpp">
+      <Filter>Source Files\Behaviours</Filter>
+    </ClCompile>
+    <ClCompile Include="SeekBehaviour.cpp">
+      <Filter>Source Files\Behaviours</Filter>
+    </ClCompile>
+    <ClCompile Include="WanderBehaviour.cpp">
+      <Filter>Source Files\Behaviours</Filter>
+    </ClCompile>
+    <ClCompile Include="PCBehaviourMap.cpp">
+      <Filter>Source Files\Behaviours</Filter>
+    </ClCompile>
+    <ClCompile Include="BehaviourMap.cpp">
+      <Filter>Source Files\Behaviours</Filter>
+    </ClCompile>
+    <ClCompile Include="KeyboardProfile.cpp">
+      <Filter>Source Files\Behaviours</Filter>
+    </ClCompile>
+    <ClCompile Include="NPCBehaviourMap.cpp">
+      <Filter>Source Files\Behaviours</Filter>
+    </ClCompile>
+    <ClCompile Include="GameState.cpp">
+      <Filter>Source Files\GameStates</Filter>
+    </ClCompile>
+    <ClCompile Include="LevelState.cpp">
+      <Filter>Source Files\GameStates</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>Source Files\GameObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="GraphObject.cpp">
+      <Filter>Source Files\GameObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="MovableGameObject.cpp">
+      <Filter>Source Files\GameObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObject.cpp">
+      <Filter>Source Files\GameObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="SplashState.cpp">
+      <Filter>Source Files\GameStates</Filter>
+    </ClCompile>
+    <ClCompile Include="MenuState.cpp">
+      <Filter>Source Files\GameStates</Filter>
+    </ClCompile>
+    <ClCompile Include="AttackBehaviour.cpp">
+      <Filter>Source Files\Behaviours</Filter>
+    </ClCompile>
+    <ClCompile Include="PathFindBehaviour.cpp">
+      <Filter>Source Files\Behaviours</Filter>
+    </ClCompile>
+    <ClCompile Include="Enemy.cpp">
+      <Filter>Source Files\GameObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="GameStateManager.cpp">
+      <Filter>Source Files\GameStates</Filter>
+    </ClCompile>
+    <ClCompile Include="PopulatedGameState.cpp">
+      <Filter>Source Files\GameStates</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Application.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Math.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Behaviour.h">
+      <Filter>Header Files\Behaviours</Filter>
+    </ClInclude>
+    <ClInclude Include="SeekBehaviour.h">
+      <Filter>Header Files\Behaviours</Filter>
+    </ClInclude>
+    <ClInclude Include="WanderBehaviour.h">
+      <Filter>Header Files\Behaviours</Filter>
+    </ClInclude>
+    <ClInclude Include="KeyBoardBehaviour.h">
+      <Filter>Header Files\Behaviours</Filter>
+    </ClInclude>
+    <ClInclude Include="PCBehaviourMap.h">
+      <Filter>Header Files\Behaviours</Filter>
+    </ClInclude>
+    <ClInclude Include="BehaviourMap.h">
+      <Filter>Header Files\Behaviours</Filter>
+    </ClInclude>
+    <ClInclude Include="KeyboardProfile.h">
+      <Filter>Header Files\Behaviours</Filter>
+    </ClInclude>
+    <ClInclude Include="Edge.h">
+      <Filter>Header Files\PathFinding</Filter>
+    </ClInclude>
+    <ClInclude Include="Graph.h">
+      <Filter>Header Files\PathFinding</Filter>
+    </ClInclude>
+    <ClInclude Include="BinaryTree.h">
+      <Filter>Header Files\PathFinding</Filter>
+    </ClInclude>
+    <ClInclude Include="Node.h">
+      <Filter>Header Files\PathFinding</Filter>
+    </ClInclude>
+    <ClInclude Include="PathFinder.h">
+      <Filter>Header Files\PathFinding</Filter>
+    </ClInclude>
+    <ClInclude Include="PFNode.h">
+      <Filter>Header Files\PathFinding</Filter>
+    </ClInclude>
+    <ClInclude Include="TreeNode.h">
+      <Filter>Header Files\PathFinding</Filter>
+    </ClInclude>
+    <ClInclude Include="NPCBehaviourMap.h">
+      <Filter>Header Files\Behaviours</Filter>
+    </ClInclude>
+    <ClInclude Include="GameState.h">
+      <Filter>Header Files\GameStates</Filter>
+    </ClInclude>
+    <ClInclude Include="GameStateManager.h">
+      <Filter>Header Files\GameStates</Filter>
+    </ClInclude>
+    <ClInclude Include="LevelState.h">
+      <Filter>Header Files\GameStates</Filter>
+    </ClInclude>
+    <ClInclude Include="GraphObject.h">
+      <Filter>Header Files\GameObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>Header Files\GameObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="MovableGameObject.h">
+      <Filter>Header Files\GameObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObject.h">
+      <Filter>Header Files\GameObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="MenuState.h">
+      <Filter>Header Files\GameStates</Filter>
+    </ClInclude>
+    <ClInclude Include="SplashState.h">
+      <Filter>Header Files\GameStates</Filter>
+    </ClInclude>
+    <ClInclude Include="AttackBehaviour.h">
+      <Filter>Header Files\Behaviours</Filter>
+    </ClInclude>
+    <ClInclude Include="BrainNode.h">
+      <Filter>Header Files\PathFinding</Filter>
+    </ClInclude>
+    <ClInclude Include="PathFindBehaviour.h">
+      <Filter>Header Files\Behaviours</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>Resource Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Enemy.h">
+      <Filter>Header Files\GameObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="PopulatedGameState.h">
+      <Filter>Header Files\GameStates</Filter>
+    </ClInclude>
+    <ClInclude Include="AssetManager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="GameAI.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>
